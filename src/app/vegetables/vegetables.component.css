@@ -1,0 +1,15 @@
+.list {
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-item span {
+    min-width: 80px;
+    padding: 5px;
+}

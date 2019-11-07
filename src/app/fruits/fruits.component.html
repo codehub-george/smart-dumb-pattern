@@ -1,0 +1,19 @@
+<div class="list-header">
+  <h2>This is a list of fruits</h2>
+  <p>In order to see if the fruit is available please click the Refresh button</p>
+</div>
+
+<div class="list">
+  <div class="header"></div>
+  <div class="list-item" *ngFor="let fruit of fruits">
+    <span>{{fruit.name}}</span>
+    <span>{{fruit.country}}</span>
+    <span>{{fruit.availability}}</span>
+    <button (click)="refreshStatus(fruit.name)">Refresh</button>
+  </div>
+</div>
+
+<div class="list-footer">
+  <p>Check all fruits availability</p>
+  <button (click)="refreshAll()">Refresh all</button>
+</div>

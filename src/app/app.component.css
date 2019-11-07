@@ -1,0 +1,23 @@
+nav {
+    padding: 30px;
+    background-color: beige;
+}
+
+nav span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 40px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    min-height: 400px;
+    padding: 50px;
+}
